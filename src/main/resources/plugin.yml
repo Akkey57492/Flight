@@ -1,0 +1,10 @@
+name: Flight
+version: ${project.version}
+main: flight.flight.Flight
+api-version: 1.17
+commands:
+  flight:
+    description: 飛行を有効または無効にします
+    permission: flight.switch
+    permission-message: flight.switch権限がありません。
+    aliases: [fly]
